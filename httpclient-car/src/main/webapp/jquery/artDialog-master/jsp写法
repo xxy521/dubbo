@@ -1,0 +1,22 @@
+1.引入必要的js文件
+<script type="text/javascript"  src="js/jquery-3.2.1.min.js"></script>
+<link    href="artDialog-master/css/dialog.css"  />
+<script type="text/javascript"  src="artDialog-master/dist/dialog.js"></script>
+2.配置
+	
+		var d = dialog({
+			title: '欢迎fdsafdasfdsa',  //标题
+			content:$("#abc"),         //弹框内容  可以是 文本  html   dom对象
+			okValue:'秋香',             //确定按钮的
+			ok:function(){             //确定按钮的回调函数
+				
+				
+			},
+			cancelValue:'唐伯虎',       //取消按钮
+			cancel:function(){        //取消按钮的回调函数
+				
+				alert("唐伯虎点秋香");
+			}
+			
+		});
+		d.showModal();               //弹出模态对话框

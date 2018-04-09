@@ -1,0 +1,5 @@
+1.在页面引入WdatePicker.js
+2.使用My97的input框写法：
+<input   type="text" class="Wdate"  onClick="WdatePicker()">
+
+onclick="WdatePicker({startDate:'%y-%M-01 00:00:00',dateFmt:'yyyy-MM-dd HH:mm',alwaysUseStartDate:true})"
